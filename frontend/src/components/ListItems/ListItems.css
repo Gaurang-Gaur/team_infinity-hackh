@@ -1,0 +1,88 @@
+.cart-container {
+    background-color: white;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 30px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.cart-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.cart-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #222;
+    margin-bottom: 5px;
+}
+
+.cart-text {
+    color: #777;
+    font-size: 14px;
+}
+
+.cart-table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.cart-table th,
+.cart-table td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+.cart-table th {
+    font-weight: bold;
+    background-color: #f2f2f2;
+    color: #222;
+}
+
+.cartImg {
+    margin-right: 20px;
+    width: 50px;
+    height: auto;
+    object-fit: cover;
+}
+
+.cartIcon {
+    color: #696969;
+    font-size: 30px;
+    cursor: pointer;
+    transition: color 0.1s;
+}
+
+.cartIcon:hover {
+    color: #0a2c50;
+}
+
+.cart-summary {
+    text-align: right;
+    margin-top: 20px;
+}
+
+.subtotal,
+.shipping,
+.total {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.checkout-button {
+    background-color: #0a2c50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.checkout-button:hover {
+    background-color: #0a2c50;
+}
